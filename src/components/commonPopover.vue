@@ -6,7 +6,6 @@
     width="200"
     trigger="hover"
     :content="describeContent">
-    <!-- <el-button slot="reference">hover 激活</el-button> -->
   </el-popover>
   </div>
 </template>

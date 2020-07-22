@@ -58,13 +58,13 @@ export default {
   },
   computed: {},
   created() {
-    this.$http.get("http://127.0.0.1:8081/htmllists")
-      .then((response) => {
-      console.log(response.data)
-      }) 
-      .catch(function(error) {
-          console.log(error);
-        })
+    // this.$http.get("http://127.0.0.1:8081/htmllists")
+    //   .then((response) => {
+    //   console.log(response.data)
+    //   }) 
+    //   .catch(function(error) {
+    //       console.log(error);
+    //     })
 
   },
   methods: {

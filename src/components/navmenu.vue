@@ -15,9 +15,13 @@
         <i class="el-icon-menu"></i>
         <span slot="title">页面列表</span>
       </el-menu-item>
-      <el-menu-item index="/lists">
+      <el-menu-item index="/logs">
         <i class="el-icon-menu"></i>
         <span slot="title">日志</span>
+      </el-menu-item>
+      <el-menu-item index="/Echart">
+        <i class="el-icon-menu"></i>
+        <span slot="title">Echart</span>
       </el-menu-item>
     </el-menu>
   </div>

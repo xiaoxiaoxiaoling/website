@@ -69,14 +69,12 @@ html{
 <script>
 import navmenu from '../components/navmenu'
 import commonHeader from '../components/commonHeader'
-import lists from '../components/navcontent/lists'
 import commonFooterInfo from '../components/commonFooterInfo'
 export default {
   name:'index',
   components: {
     navmenu,
     commonHeader,
-    lists,
     commonFooterInfo
   }
 }

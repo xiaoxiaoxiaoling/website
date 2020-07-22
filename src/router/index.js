@@ -11,6 +11,7 @@ VueRouter.prototype.push = function push(location) {
   {
     path: '/',
     name: 'index',
+    redirect: '/experience',
     component: index,
     children:[
       {
@@ -20,10 +21,17 @@ VueRouter.prototype.push = function push(location) {
       {
         path:'/lists',
         component:()=>import('../components/navcontent/lists.vue')
+      },
+      {
+        path:'/logs',
+        cpmponent:()=>import('../components/navcontent/logs.vue')
+      },
+      {
+        path:'/echart',
+        cpmponent:()=>import('../components/navcontent/echart.vue')
       }
     ]
   },
-
 ]
 
 const router = new VueRouter({
