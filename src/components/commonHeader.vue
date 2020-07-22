@@ -2,9 +2,6 @@
   <div class="commonHeader">
    <div class="left">
     <el-button @click="setIsCollapse" type="primary" icon="el-icon-menu"></el-button>
-    <div class="tabs">
-      <common-tab></common-tab>
-    </div>
    </div>
    
   <div>
@@ -21,7 +18,6 @@
 
 <script>
   import {mapActions} from 'vuex'
-  import commonTab from './commonTab'
   export default {
     name:'commonHeader',
     data () {
@@ -33,7 +29,6 @@
        ...mapActions(['setIsCollapse'])
     },
     components: {
-      commonTab
     }
   }
 </script>

@@ -22,10 +22,5 @@ html{
 }
 </style>
 <script>
-// import index from './views/index'
-// export default {
-//   components: {
-//     index
-//   }
-// }
+
 </script>

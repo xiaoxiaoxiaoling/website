@@ -2,7 +2,7 @@
   <div class="experience">
     <div class="block">
   <el-timeline>
-    <el-timeline-item v-for="(val,index) in lists" :key="index" :timestamp="val.tiem" placement="top">
+    <el-timeline-item type="primary" v-for="(val,index) in lists" :key="index" :timestamp="val.tiem" placement="top">
       <el-card>
         <h4>{{val.title}}</h4>
         <p v-html="val.content"></p>

@@ -24,11 +24,11 @@ VueRouter.prototype.push = function push(location) {
       },
       {
         path:'/logs',
-        cpmponent:()=>import('../components/navcontent/logs.vue')
+        component:()=>import('../components/navcontent/logs.vue')
       },
       {
         path:'/echart',
-        cpmponent:()=>import('../components/navcontent/echart.vue')
+        component:()=>import('../components/navcontent/echart.vue')
       }
     ]
   },
